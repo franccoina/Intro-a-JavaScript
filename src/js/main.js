@@ -40,13 +40,13 @@
 //     imageAlt: "Custom image"
 //     });
 
-let fav = prompt("Ingresa tu objeto favorito");
+let favorite = prompt("Ingresa tu objeto favorito");
 let username= prompt("Ingresa tu nombre");
 
 let address=prompt("Ingresa tu dirección");
 let email=prompt("Ingresa tu email");
 let phone=prompt("Ingresa tu número de teléfono");
 
-console.log(`Tu nombre es ${username} y tu objeto favorito es ${fav}`);
+console.log(`Tu nombre es ${username} y tu objeto favorito es ${favorite}`);
 console.info("Tu dirección es "+ address +", tu email es "+ email +"y tu telefono es"+ phone);
 
